@@ -4,7 +4,7 @@
   "description": "NUMber COmpressor / decompressor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha tests"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,12 @@
   "bugs": {
     "url": "https://github.com/inelo/numco-node/issues"
   },
-  "homepage": "https://github.com/inelo/numco-node#readme",  
+  "homepage": "https://github.com/inelo/numco-node#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "zlibjs-slim": "^0.2.0"
   }
 }

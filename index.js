@@ -1,4 +1,4 @@
-var zlib = require('zlib');
+var zlib = require('zlibjs-slim');
 /**
  * Compress an array of numbers/integers
  *
@@ -27,10 +27,9 @@ module.exports = {
 };
 
 var ArrayConverter = {
-  
   /**
   * Converts an array of number values to array of differences between each pairs of values
-  * for example : [100, 101, 102, 103, 104, 105] => [100, 1, 2, 3, 4, 5]
+  * for example : [100, 101, 102, 103, 104, 105] => [100, 1, 1, 1, 1, 1]
   * @param {array<number>}
   * @return {array<number>}
   */
@@ -43,10 +42,9 @@ var ArrayConverter = {
     }
     return result;
   },
-
   /**
   * Converts an array of diffs to array of values
-  * for example : [100, 1, 2, 3, 4, 5] => [100, 101, 102, 103, 104, 105]
+  * for example : [100, 1, 1, 1, 1, 1] => [100, 101, 102, 103, 104, 105]
   * @param {array<number>}
   * @return {array<number>}
   */
