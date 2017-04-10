@@ -16,6 +16,9 @@ Delta encoding example:
 ```
 
 ## Charts
+
+(the more sequential data the better compression ratio)
+
 ![charts](/numco_charts.png)
 
 ## Mini DOC
