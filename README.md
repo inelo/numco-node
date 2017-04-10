@@ -38,7 +38,7 @@ npm install numco --save
 
 ## Example usage
 ```
-var numco = require("./index.js"),
+var numco = require("numco"),
     compress = numco.compress,
     decompress = numco.decompress;
 
