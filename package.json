@@ -1,5 +1,5 @@
 {
-  "name": "numco-node",
+  "name": "numco",
   "version": "0.1.0",
   "description": "NUMber COmpressor / decompressor",
   "main": "index.js",
