@@ -16,6 +16,9 @@ Delta encoding example:
 ```
 
 ## Charts
+
+(the more sequential data the better compression ratio)
+
 ![charts](/numco_charts.png)
 
 ## Mini DOC
@@ -38,7 +41,7 @@ npm install numco --save
 
 ## Example usage
 ```
-var numco = require("./index.js"),
+var numco = require("numco"),
     compress = numco.compress,
     decompress = numco.decompress;
 
@@ -58,4 +61,4 @@ See tests/index.js for more.
 
 ## Release History
 
-* 0.1.0 Initial release
+* 1.0.0 Initial release
