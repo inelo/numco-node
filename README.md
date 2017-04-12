@@ -61,4 +61,4 @@ See tests/index.js for more.
 
 ## Release History
 
-* 0.1.0 Initial release
+* 1.0.0 Initial release
